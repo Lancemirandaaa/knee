@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reconciliation Card</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  p {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    animation: heartbeat 1.5s infinite;
+    opacity: 0;
+  }
+
+  .button {
+            background-color: silver;
+            color: white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: background-color 0.4s;
+            cursor: pointer;
+        }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>I'm Sorry</h1>
+  <p>Forgive me for my mistakes. Let's reconcile and move forward together.</p>
+  <img class="heart" src="https://emojicdn.elk.sh/❤️" alt="Heart">
+  <div class="button">
+  <a href="file:///C:/Users/user/Desktop/Practices/something/sorryna.html#contact"><button>Click Here if papatawarin mo ko</button></a>
+  </div>
+</div>
+</body>
+</html>
